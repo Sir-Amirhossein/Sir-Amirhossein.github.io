@@ -242,12 +242,12 @@ body ::-webkit-scrollbar {
 #Item {
   --f2w-order: 0;
   border-radius: 0;
-  width: calc(100% - 0px);
-  height: 20px;
+  width: calc(100% - .2px);
+  height: 20.3px;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0
+  right: .3px
 }
 
 #Symbol {
@@ -255,8 +255,8 @@ body ::-webkit-scrollbar {
   width: 11px;
   height: 14px;
   position: absolute;
-  top: 2px;
-  left: 4px
+  top: 1.8px;
+  left: 3.6px
 }
 
 #_2_86 {
@@ -285,7 +285,7 @@ body ::-webkit-scrollbar {
   -webkit-background-clip: text;
   background-clip: text;
   font-family: Roboto, serif;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: underline
@@ -294,12 +294,12 @@ body ::-webkit-scrollbar {
 #Item_Link {
   --f2w-order: 1;
   border-radius: 0;
-  width: calc(100% - 0px);
-  height: 24px;
+  width: calc(100% - .2px);
+  height: 24.3px;
   position: absolute;
   top: 27px;
   left: 0;
-  right: 0
+  right: .3px
 }
 
 #Symbol_0 {
@@ -307,8 +307,8 @@ body ::-webkit-scrollbar {
   width: 14px;
   height: 11px;
   position: absolute;
-  top: 6px;
-  left: 2px
+  top: 5.6px;
+  left: 1.6px
 }
 
 #_2_89 {
@@ -319,10 +319,10 @@ body ::-webkit-scrollbar {
   background-clip: text;
   justify-content: flex-start;
   align-items: center;
-  width: 38px;
+  width: 37.7px;
   height: 15px;
   font-family: Roboto, serif;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: underline;
@@ -337,7 +337,7 @@ body ::-webkit-scrollbar {
   -webkit-background-clip: text;
   background-clip: text;
   font-family: Roboto, serif;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: underline
@@ -346,12 +346,12 @@ body ::-webkit-scrollbar {
 #Item_Link_0 {
   --f2w-order: 2;
   border-radius: 0;
-  width: calc(100% - 0px);
-  height: 24px;
+  width: calc(100% - .2px);
+  height: 24.3px;
   position: absolute;
-  top: 60px;
+  top: 59.7px;
   left: 0;
-  right: 0
+  right: .3px
 }
 
 #Symbol_1 {
@@ -359,8 +359,8 @@ body ::-webkit-scrollbar {
   width: 13px;
   height: 13px;
   position: absolute;
-  top: 4px;
-  left: 2px
+  top: 4.4px;
+  left: 2.4px
 }
 
 #_2_95 {
@@ -398,7 +398,7 @@ body ::-webkit-scrollbar {
   -webkit-background-clip: text;
   background-clip: text;
   font-family: Roboto, serif;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 400;
   line-height: 20px;
   text-decoration: underline
@@ -512,7 +512,7 @@ body ::-webkit-scrollbar {
 #List_0 {
   --f2w-order: 0;
   border-radius: 0;
-  width: 344px;
+  width: 344.1px;
   height: 45px;
   position: absolute;
   top: 0;
@@ -527,7 +527,7 @@ body ::-webkit-scrollbar {
   position: absolute;
   top: 0;
   left: 0;
-  right: 230px
+  right: 230.1px
 }
 
 #_2_119 {
