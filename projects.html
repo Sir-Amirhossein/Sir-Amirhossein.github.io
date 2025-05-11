@@ -1,113 +1,167 @@
+<!DOCTYPE html>
 <html lang="en" xml:lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Projects</title>
-  <script>window.F2W_REACTIONS = (() => {
-    return {4: {type: "URL", url: "/Experiences/"}}
-  })(), window.F2W_VARIABLES = {}, window.F2W_COLLECTION_VARS = {}, window.F2W_COLLECTION_MODE_BPS = {}, window.F2W_COLOR_SCHEMES = void 0, window.F2W_LANGUAGES = void 0;
+  <title>Projects | Amirhossein Mirahmadi</title>
+  <script>
+    window.F2W_REACTIONS = (() => {
+      return {4: {type: "URL", url: "/Experiences/"}};
+    })();
+    window.F2W_VARIABLES = {};
+    window.F2W_COLLECTION_VARS = {};
+    window.F2W_COLLECTION_MODE_BPS = {};
+    window.F2W_COLOR_SCHEMES = void 0;
+    window.F2W_LANGUAGES = void 0;
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400..700&family=Inter:wght@400&display=swap"
-        rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400..700&family=Inter:wght@400&display=swap"
+    rel="stylesheet">
   <link href="css/projects-style.css" rel="stylesheet">
 </head>
 <body id="_">
+<!-- 1. Skip link -->
+<a href="#main-content" class="skip-link">Skip to content</a>
+
 <div id="Projects">
   <div id="__x2d_body">
-    <div id="main" role="main">
-      <div id="Container">
-        <div id="Amirhossein" class="pointer-events-none">
-          <img
-            src="img/profile-photo.jpg"
-            alt="Amirhossein" id="__0" fetchpriority="high" decoding="async">
+
+    <!-- 2. Primary nav, moved here for correct focus order -->
+    <nav id="site-nav" role="navigation" aria-label="Primary">
+      <ul id="List_0">
+        <li>
+          <a href="index.html" id="Item_Link_1" class="nav-link">Amirhossein Mirahmadi</a>
+        </li>
+        <li>
+          <a href="projects.html" id="Item_Link_2" class="nav-link" aria-current="page">Projects</a>
+        </li>
+        <li>
+          <a href="experiences.html" id="Item_Link_3" class="nav-link" data-reaction-click="4">Experiences</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 3. Main content -->
+    <main id="main-content" role="main">
+      <div id="main">
+
+        <!-- Left column: profile -->
+        <div id="Container">
+          <div id="Amirhossein" class="pointer-events-none profile-photo">
+            <img
+              src="img/profile-photo.jpg"
+              alt="Photo of Amirhossein Mirahmadi"
+              id="__0"
+              fetchpriority="high"
+              decoding="async">
+          </div>
+          <!-- demote from <h1> to a <p>, since our page-level <h1> is “Projects” -->
+          <p id="Heading_3_Amirhossein" class="text">Amirhossein Mirahmadi</p>
+          <p id="_3_8" class="text">
+            Undergraduate student in Computer Engineering at Amirkabir University of Technology
+          </p>
+
+          <!-- contact list: each link in its own <li> -->
+          <ul id="List" class="contact-list">
+            <li id="Item">
+              <svg id="Symbol" aria-hidden="true" focusable="false" width="11" height="14"
+                   viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.30472 13.4238C1.45511 7.88672 0.769563 7.30664 0.769563 5.25C0.769563 2.45508 3.01077 0.1875 5.83206 0.1875C8.62699 0.1875 10.8946 2.45508 10.8946 5.25C10.8946 7.30664 10.1826 7.88672 6.33304 13.4238C6.09574 13.793 5.54202 13.793 5.30472 13.4238Z" fill="black"/>
+              </svg>
+              <span id="_3_12" class="text">Amirkabir, Teh, Iran</span>
+            </li>
+            <li>
+              <svg id="Symbol_0" aria-hidden="true" focusable="false" width="14" height="11"
+                   viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3345 4.22363C13.4399 4.14453 13.5981 4.22363 13.5981 4.35547V9.73438C13.5981 10.4463 13.018 11 12.3325 11H1.36375C0.651834 11 0.0981231 10.4463 0.0981231 9.73438V4.35547C0.0981231 4.22363 0.229959 4.14453 0.335428 4.22363C0.941873 4.69824 1.70652 5.27832 4.39597 7.22949C4.94969 7.625 5.8989 8.49512 6.84812 8.49512C7.77097 8.49512 8.74656 7.625 9.2739 7.22949C11.9634 5.27832 12.728 4.69824 13.3345 4.22363ZM6.84812 7.625C6.21531 7.65137 5.34519 6.86035 4.89695 6.54395C1.39012 4.0127 1.12644 3.77539 0.335428 3.14258C0.177225 3.03711 0.0981231 2.85254 0.0981231 2.6416V2.14062C0.0981231 1.45508 0.651834 0.875 1.36375 0.875H12.3325C13.018 0.875 13.5981 1.45508 13.5981 2.14062V2.6416C13.5981 2.85254 13.4927 3.03711 13.3345 3.14258C12.5434 3.77539 12.2798 4.0127 8.77293 6.54395C8.32469 6.86035 7.45457 7.65137 6.84812 7.625Z" fill="#494E52"/>
+              </svg>
+              <a href="mailto:amireshun18@gmail.com" id="Item_Link" class="text">Email</a>
+            </li>
+            <li>
+              <svg id="Symbol_1" aria-hidden="true" focusable="false" width="13" height="13"
+                   viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.9051 0.691284C12.3533 0.691284 12.7488 1.08679 12.7488 1.5614V11.66C12.7488 12.1346 12.3533 12.5038 11.9051 12.5038H1.75369C1.30545 12.5038 0.936309 12.1346 0.936309 11.66V1.5614C0.936309 1.08679 1.30545 0.691284 1.75369 0.691284H11.9051ZM4.49588 10.8163V5.20007H2.75565V10.8163H4.49588ZM3.62576 4.40906C4.17947 4.40906 4.62772 3.96082 4.62772 3.4071C4.62772 2.85339 4.17947 2.37878 3.62576 2.37878C3.04568 2.37878 2.59744 2.85339 2.59744 3.4071C2.59744 3.96082 3.04568 4.40906 3.62576 4.40906ZM11.0613 10.8163V7.73132C11.0613 6.22839 10.7185 5.04187 8.95193 5.04187C8.10818 5.04187 7.52811 5.51648 7.2908 5.96472H7.26443V5.20007H5.6033V10.8163H7.34354V8.04773C7.34354 7.30945 7.47537 6.59753 8.39822 6.59753C9.29471 6.59753 9.29471 7.44128 9.29471 8.0741V10.8163H11.0613Z" fill="#007BB6"/>
+              </svg>
+              <a href="https://www.linkedin.com/in/amirhossein-mirahmadi-75415a309/" id="Item_Link_0" class="text">LinkedIn</a>
+            </li>
+          </ul>
         </div>
-        <span id="Heading_3_Amirhossein" class="pointer-events-none"><span id="__1"
-                                                                           class="text">Amirhossein Mirahmadi</span></span>
-        <span id="_3_8" class="pointer-events-none"><span id="__2" class="text">Undergraduate student in Computer Engineering at Amirkabir University of Technology</span></span>
-        <ul id="List">
-          <li id="Item">
-            <svg preserveAspectRatio="none" id="Symbol" class="pointer-events-none" width="11" height="14"
-                 viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M5.30472 13.4238C1.45511 7.88672 0.769563 7.30664 0.769563 5.25C0.769563 2.45508 3.01077 0.1875 5.83206 0.1875C8.62699 0.1875 10.8946 2.45508 10.8946 5.25C10.8946 7.30664 10.1826 7.88672 6.33304 13.4238C6.09574 13.793 5.54202 13.793 5.30472 13.4238Z"
-                fill="black"></path>
-            </svg>
-            <span id="_3_12" class="pointer-events-none"><span id="__3" class="text">Amirkabir, Teh, Iran</span></span>
-          </li>
-          <a href="mailto:amireshun18@gmail.com" id="Item_Link">
-            <svg preserveAspectRatio="none" id="Symbol_0" class="pointer-events-none" width="14" height="11"
-                 viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M13.3345 4.22363C13.4399 4.14453 13.5981 4.22363 13.5981 4.35547V9.73438C13.5981 10.4463 13.018 11 12.3325 11H1.36375C0.651834 11 0.0981231 10.4463 0.0981231 9.73438V4.35547C0.0981231 4.22363 0.229959 4.14453 0.335428 4.22363C0.941873 4.69824 1.70652 5.27832 4.39597 7.22949C4.94969 7.625 5.8989 8.49512 6.84812 8.49512C7.77097 8.49512 8.74656 7.625 9.2739 7.22949C11.9634 5.27832 12.728 4.69824 13.3345 4.22363ZM6.84812 7.625C6.21531 7.65137 5.34519 6.86035 4.89695 6.54395C1.39012 4.0127 1.12644 3.77539 0.335428 3.14258C0.177225 3.03711 0.0981231 2.85254 0.0981231 2.6416V2.14062C0.0981231 1.45508 0.651834 0.875 1.36375 0.875H12.3325C13.018 0.875 13.5981 1.45508 13.5981 2.14062V2.6416C13.5981 2.85254 13.4927 3.03711 13.3345 3.14258C12.5434 3.77539 12.2798 4.0127 8.77293 6.54395C8.32469 6.86035 7.45457 7.65137 6.84812 7.625Z"
-                fill="#494E52"></path>
-            </svg>
-            <span id="_3_15" class="pointer-events-none"><span id="__4" class="text"> Email</span></span>
-          </a>
-          <a href="https://www.linkedin.com/in/amirhossein-mirahmadi-75415a309/" id="Item_Link_0">
-            <svg preserveAspectRatio="none" id="Symbol_1" class="pointer-events-none" width="13" height="13"
-                 viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11.9051 0.691284C12.3533 0.691284 12.7488 1.08679 12.7488 1.5614V11.66C12.7488 12.1346 12.3533 12.5038 11.9051 12.5038H1.75369C1.30545 12.5038 0.936309 12.1346 0.936309 11.66V1.5614C0.936309 1.08679 1.30545 0.691284 1.75369 0.691284H11.9051ZM4.49588 10.8163V5.20007H2.75565V10.8163H4.49588ZM3.62576 4.40906C4.17947 4.40906 4.62772 3.96082 4.62772 3.4071C4.62772 2.85339 4.17947 2.37878 3.62576 2.37878C3.04568 2.37878 2.59744 2.85339 2.59744 3.4071C2.59744 3.96082 3.04568 4.40906 3.62576 4.40906ZM11.0613 10.8163V7.73132C11.0613 6.22839 10.7185 5.04187 8.95193 5.04187C8.10818 5.04187 7.52811 5.51648 7.2908 5.96472H7.26443V5.20007H5.6033V10.8163H7.34354V8.04773C7.34354 7.30945 7.47537 6.59753 8.39822 6.59753C9.29471 6.59753 9.29471 7.44128 9.29471 8.0741V10.8163H11.0613Z"
-                fill="#007BB6"></path>
-            </svg>
-            <span id="_3_18" class="pointer-events-none"><span id="__5" class="text"> LinkedIn</span></span>
-          </a>
-        </ul>
+
+        <!-- Right column: projects -->
+        <article id="Article">
+          <!-- 4. Page-level heading -->
+          <h1 id="Header_Heading_1_About_me" class="text">Projects</h1>
+
+          <div id="body">
+            <!-- Project #1 -->
+            <section id="Frame_1">
+              <h3 id="_3_35" class="text">Software Engineering Project</h3>
+              <p id="_3_36">
+                <a href="https://github.com/mehrshad-kh/spell-correction"
+                   id="__9"
+                   class="text"
+                   target="_blank"
+                   rel="noopener">https://github.com/mehrshad-kh/spell-correction</a>
+              </p>
+              <p id="_3_37" class="text">
+                This project is a spell corrector website that checks your text input or uploaded file for spelling errors and suggests corrections for any misspelled words.
+              </p>
+            </section>
+
+            <!-- Project #2 -->
+            <section id="Frame_2">
+              <h3 id="_3_39" class="text">Database system Project</h3>
+              <p id="_3_40">
+                <a href="https://github.com/Sir-Amirhossein/DB-Project"
+                   id="__13"
+                   class="text"
+                   target="_blank"
+                   rel="noopener">https://github.com/Sir-Amirhossein/DB-Project</a>
+              </p>
+              <p id="_3_41" class="text">
+                The subject of this project is the design and implementation of the database management component of a messenger.
+                I aimed to design the system with high performance and using standard approaches.
+              </p>
+            </section>
+
+            <!-- Project #3 -->
+            <section id="Frame_3">
+              <h3 id="_3_43" class="text">Basic Programming Project</h3>
+              <p id="_3_44">
+                <a href="https://github.com/Sir-Amirhossein/BP-Project"
+                   id="__18"
+                   class="text"
+                   target="_blank"
+                   rel="noopener">https://github.com/Sir-Amirhossein/BP-Project</a>
+              </p>
+              <p id="_3_45" class="text">
+                This is a reservation system project for my BP course.
+              </p>
+            </section>
+
+            <!-- Project #4 -->
+            <section id="Frame_4">
+              <h3 id="_3_47" class="text">Advanced Programming Project</h3>
+              <p id="_3_48">
+                <a href="https://github.com/Sir-Amirhossein/Ap_ClientProjectMidTerm"
+                   id="__22"
+                   class="text"
+                   target="_blank"
+                   rel="noopener">https://github.com/Sir-Amirhossein/Ap_ClientProjectMidTerm</a>
+              </p>
+              <p id="_3_49" class="text">
+                This is a demo of a messenger similar to Twitter, and I handled both the front-end and back-end sides for my AP course.
+              </p>
+            </section>
+          </div>
+        </article>
+
       </div>
-      <div id="Article">
-        <span id="Header_Heading_1_About_me" class="pointer-events-none"><span id="__6"
-                                                                               class="text">Projects</span></span>
-        <div id="body">
-          <div id="Frame_1">
-            <span id="_3_35" class="pointer-events-none"><span id="__7" class="text">Software Engineering Project</span></span>
-            <span id="_3_36"><span id="__8"><a href="https://github.com/mehrshad-kh/spell-correction" target="_blank"
-                                               id="__9" class="text">https://github.com/mehrshad-kh/spell-correction</a></span></span>
-            <span id="_3_37" class="pointer-events-none"><span id="__10" class="text">This project is a spell corrector website that checks your text input or uploaded file for spelling errors and suggests corrections for any misspelled words.</span></span>
-          </div>
-          <div id="Frame_2">
-            <span id="_3_39" class="pointer-events-none"><span id="__11"
-                                                               class="text">Database system Project</span></span>
-            <span id="_3_40"><span id="__12"><a href="https://github.com/Sir-Amirhossein/DB-Project" target="_blank"
-                                                id="__13" class="text">https://github.com/Sir-Amirhossein/DB-Project</a></span></span>
-            <span id="_3_41" class="pointer-events-none"><span id="__14" class="text">The subject of this project is the design and implementation of the database management component of a messenger. <br
-              id="__15">I aimed to design the system with high performance and using standard approaches.</span></span>
-          </div>
-          <div id="Frame_3">
-            <span id="_3_43" class="pointer-events-none"><span id="__16"
-                                                               class="text">Basic Programming Project</span></span>
-            <span id="_3_44"><span id="__17"><a href="https://github.com/Sir-Amirhossein/BP-Project" target="_blank"
-                                                id="__18" class="text">https://github.com/Sir-Amirhossein/BP-Project</a></span></span>
-            <span id="_3_45" class="pointer-events-none"><span id="__19" class="text">This is a reservation system project for my BP course.</span></span>
-          </div>
-          <div id="Frame_4">
-            <span id="_3_47" class="pointer-events-none"><span id="__20"
-                                                               class="text">Advanced Programming Project</span></span>
-            <span id="_3_48"><span id="__21"><a href="https://github.com/Sir-Amirhossein/Ap_ClientProjectMidTerm"
-                                                target="_blank" id="__22" class="text">https://github.com/Sir-Amirhossein/Ap_ClientProjectMidTerm</a></span></span>
-            <span id="_3_49" class="pointer-events-none"><span id="__23" class="text">This is a demo of a messenger similar to Twitter, and I handled both the front-end and back-end sides for my AP course.</span></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="HorizontalBorder">
-      <div id="site-nav">
-        <ul id="List_0">
-          <a href="index.html" id="Item_Link_1">
-            <span id="_3_27" class="pointer-events-none"><span id="__24"
-                                                               class="text">Amirhossein Mirahmadi</span></span>
-          </a>
-          <a href="projects.html" id="Item_Link_2">
-          </a>
-          <span id="_3_29" class="pointer-events-none"><span id="__25" class="text">Projects</span></span>
-        </ul>
-        <a href="experiences.html" id="Item_Link_3">
-          <button tabindex="0" data-reaction-click="4" id="_3_31">
-            <span id="__26" class="text">Experiences</span>
-          </button>
-        </a>
-      </div>
-    </div>
-    <div id="Background_HorizontalBorder" class="pointer-events-none">
-    </div>
+    </main>
+
+    <!-- bottom borders only -->
+    <div id="HorizontalBorder"></div>
+    <div id="Background_HorizontalBorder" class="pointer-events-none"></div>
+
   </div>
 </div>
 </body>
